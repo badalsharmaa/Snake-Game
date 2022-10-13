@@ -5,11 +5,11 @@ import javax.swing.*;
 import java.util.Random;
 
 public class GAME_PANEL extends JPanel implements ActionListener{
-    static final int SCREEN_WIDTH = 600;
-    static final int SCREEN_HEIGHT = 650;
-    static final int UNIT_SIZE = 25;
+    static final int SCREEN_WIDTH =600;
+    static final int SCREEN_HEIGHT = 600;
+    static final int UNIT_SIZE = 50;
     static final int GAME_UNITS = (SCREEN_WIDTH*SCREEN_HEIGHT)/(UNIT_SIZE*UNIT_SIZE);
-    static final int DELAY = 75;
+    static final int DELAY = 175;
     final int x[] = new int[GAME_UNITS];
     final int y[] = new int[GAME_UNITS];
     int bodyParts = 6;
